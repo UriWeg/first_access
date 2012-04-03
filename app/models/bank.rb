@@ -4,6 +4,7 @@ class Bank < ActiveRecord::Base
 
   fields do
     name :string
+    
     equation :string
     timestamps
   end
